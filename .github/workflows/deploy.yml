@@ -26,7 +26,7 @@ jobs:
       - name: Validate HTML
         run: |
           echo "✓ HTML validation passed"
-          grep -q "Hello, World!" index.html || exit 1
+          grep -q "Aloha, World!" index.html || exit 1
 
   # Deploy to GitHub Pages (only on main branch)
   deploy:
